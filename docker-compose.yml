@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  microsite.topics:
+    image: microservice-topics
+    build:
+      context: .
+      dockerfile: Services.Topics/Dockerfile
